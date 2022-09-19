@@ -1,13 +1,10 @@
-package Models;
-
+package com.pruebaApi.proyectoGit.Models;
 
 import javax.persistence.*;
 
-
-
 @Entity
 @Table(name = "usuario")
-public class UsuarioModels {
+public class UsuarioModel {
 
     @Id
     @GeneratedValue(strategy = javax.persistence.GenerationType.IDENTITY)
